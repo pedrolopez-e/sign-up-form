@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* To make the sides have the body's height*/
+}
+
+#left-side, #right-side {
+    border: solid 1px;
+    width: 50px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+#left-side {
+    flex-grow: 1;
+
+}
+
+#right-side {
+    flex-grow: 1.5; /* To make both sides occupy the whole width but the right one a little bit more */
+}
