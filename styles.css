@@ -8,18 +8,37 @@ body {
 }
 
 #left-side, #right-side {
-    border: solid 1px;
-    width: 50px;
     margin-top: 0;
     margin-left: 0;
 }
 
 #left-side {
-    flex-grow: 1;
-
-
+    width: 530px;
+    display: flex;
 }
 
-#right-side {
-    flex-grow: 1.5; /* To make both sides occupy the whole width but the right one a little bit more */
+#leaves-img {
+    height: 100%;
+    width: 100%;
+}
+
+.title-container {
+    position: absolute;
+    top: 200px;
+    width: 530px; /* Cannot use percentages because of absolute positioning*/
+    height: 160px;
+    background-color: black;
+    opacity: 0.5;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#title {
+    margin-right: 30px;
+    color: black;
+    opacity: 1;
+    font-size: 30px;
+    opacity: 0;
 }
