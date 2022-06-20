@@ -7,6 +7,8 @@ body {
     align-items: stretch; /* To make the sides have the body's height*/
 }
 
+/*LEFT SIDE STYLE*/
+
 #left-side, #right-side {
     margin-top: 0;
     margin-left: 0;
@@ -15,6 +17,7 @@ body {
 #left-side {
     width: 530px;
     display: flex;
+    position: relative;
 }
 
 #leaves-img {
@@ -25,7 +28,7 @@ body {
 .logo-container {
     position: absolute;
     top: 200px;
-    width: 530px; /* Cannot use percentages because of absolute positioning*/
+    width: 100%; /* Cannot use percentages because of absolute positioning*/
     height: 160px;
     background: rgba(0,0,0,0.5);
     margin: 0;
@@ -52,3 +55,6 @@ h1 {
 #logo {
     height: 130px;
 }
+
+/*RIGHT SIDE STYLE*/
+
