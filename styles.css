@@ -58,3 +58,18 @@ h1 {
 
 /*RIGHT SIDE STYLE*/
 
+#right-side {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-part {
+    font-size: 26px;
+    font-weight: bold;
+    height: 200px;
+    width: 700px;
+    margin-left: 40px;
+    margin-top: 150px;
+    text-align: left;
+}
